@@ -8,7 +8,8 @@
     "test": "eslint src/ && jest src/",
     "build": "parcel build src/index.html",
     "lint": "eslint src/",
-    "jest": "jest src/"
+    "jest": "jest src/",
+    "zip": "zip -r -D project.zip $PWD -x \"*/node_modules/*\" \"*/.git/*\""
   },
   "devDependencies": {
     "babel-jest": "^23.0.0-alpha.0",
