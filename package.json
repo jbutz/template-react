@@ -12,12 +12,13 @@
     "zip": "zip -r -D project.zip $PWD -x \"*/node_modules/*\" \"*/.git/*\""
   },
   "devDependencies": {
-    "babel-jest": "^23.0.0-alpha.0",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
+    "@babel/core": "^7.8.7",
+    "@babel/preset-env": "^7.8.7",
+    "@babel/preset-react": "^7.8.3",
+    "babel-jest": "^25.1.0",
     "eslint": "^4.19.0",
     "eslint-plugin-react": "^7.7.0",
-    "jest": "^22.4.2",
+    "jest": "^25.1.0",
     "node-sass": "^4.7.2",
     "parcel-bundler": "^1.10.0",
     "regenerator-runtime": "^0.11.1"
